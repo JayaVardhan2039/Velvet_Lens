@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: velvetlens
+    env: docker
+    repo: https://github.com/yourusername/VelvetLens.git
+    plan: free
+    branch: main
+    healthCheckPath: /
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/VelvetLens.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
