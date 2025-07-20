@@ -1,13 +1,11 @@
 services:
   - type: web
     name: velvetlens
-    env: dotnet
-    runtime: dotnet
-    buildCommand: dotnet publish -c Release -o out
-    startCommand: dotnet out/VelvetLens.dll
+    env: docker
     plan: free
     branch: main
-    healthCheckPath: /
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: ASPNETCORE_ENVIRONMENT
         value: Production
+    healthCheckPath: /
