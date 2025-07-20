@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VelvetLens")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef951384d7dca667963111ccb865f344c6cf7bc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("VelvetLens")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VelvetLens")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
